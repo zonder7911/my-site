@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 40px 0;
+    font: 14px Times;
+    color: black;
+}
+p {
+    padding: 8px 0;
+    line-height: 20px;
+    text-align: justify;
+}
+p.subtitle {
+    float: right;
+    padding: 0 30px 0 0;
+    font: 20px/120px Times;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    color: gray;
+}
+a {
+    color: orange;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
+    background: white;
+}
+header {
+    height: 120px;
+}
+header h2 {
+    float: left;
+    line-height: 120px;
+    padding-left: 30px;
+}
+header h2 a {
+    color: black;
+    text-decoration: none;
+}
+nav {
+    clear: both;
+    height: 84px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+    background: orange
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    flex: 1;
+    font-size: 20px;
+    line-height: 76px;
+    text-transform: lowercase;
+}
+nav ul li a {
+    display: block;
+    float: left;
+    padding: 0 40px;
+    height: 84px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: wheat;
+}
+nav ul li.active a:hover {
+    color: wheat;
+}
+.information {
+    float: left;
+    width: 270px;
+    padding: 0 0 20px 30px;
+}
+.information h3 {
+    font: normal 20px Times;
+    letter-spacing: -1px;
+}
+.information .tab {
+    padding: 5px 0 30px 0;
+}
+.information p {
+    text-align: left;
+}
+.information ul {
+    list-style: none;
+    padding: 10px 0 40px 0;
+}
+.information ul li {
+    padding-left: 16px;
+    line-height: 30px;
+    border-bottom: 1px solid snow;
+}
+img {
+    height: 400px;
+    margin-bottom: 60px;
+    background: gray
+}
+
+footer {
+    clear: both;
+    height: 1%;
+    padding: 20px 30px;
+    border-top: 1px solid darkgrey;
+}
+
+footer p {
+    text-align: center;
+}
+
+.content {
+    float: right;
+    width: 550px;
+    padding: 0 30px 10px 0;
+}
+
+.content .text {
+    padding: 0 0 40px 0;
+}
+
+.content h3 {
+    font: normal 30px Times;
+    letter-spacing: -2px;
+}
+
+.content h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+p.text5 {
+    color: gray;
+}
+
+.content .entry {
+    padding: 8px 0 0 0;
+}
+
+h1, h2 {
+    text-transform: lowercase;
+}
+
+h2 {
+    font: normal 54px Times;
+    letter-spacing: -3px;
+    color: black;
+}
+
+h3 {
+    font-weight: normal;
+    color: black;
+}
+
+p.zxc {
+    padding-right: -50px;
+    text-align: right;
+}
+
+p.zxc a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+}
+
+p.zxc a:hover {
+    background: darkgray;
+}
